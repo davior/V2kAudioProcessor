@@ -6,8 +6,8 @@ from pathlib import Path
 
 import soundfile as sf
 
-from audio.filters import bandpass_filter
-from audio.io import (
+from src.audio.filters import bandpass_filter
+from src.audio.io import (
     DEFAULT_SAMPLE_RATE,
     apply_gain_db,
     apply_limiter,
